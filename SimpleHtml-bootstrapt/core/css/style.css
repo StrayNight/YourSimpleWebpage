@@ -1,0 +1,96 @@
+h1 {
+    justify-content: center; 
+    display: flex; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+
+form {
+    justify-content: center; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+}
+
+p {
+    font-size: smaller; 
+    margin-top: 10px;
+    justify-content: center; 
+    display: flex; 
+}
+
+a {
+    text-decoration: none;
+}
+
+p.text-center {
+    text-align: center; 
+    margin-top: 20px; 
+    font-weight: bold;
+}
+
+p.left {
+    justify-content: right;
+    margin-top: 0;
+}
+
+.container1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh;
+}
+
+.container2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh;
+}
+
+.card {
+    width: 20rem; 
+    margin-top: 50px; 
+    padding: 20px; 
+    border-radius: 20px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    justify-content: center; 
+    display: block; 
+    margin: 0 auto; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.form-row {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.google-login-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.btn btn-outline-secondary {
+    border: 1px solid #ccc; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+
+.fullscreen-img {
+    width: 100vw; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
