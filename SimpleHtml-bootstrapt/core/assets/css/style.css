@@ -1,0 +1,228 @@
+:root {
+  --color-bg: #000000;
+  --color-bg-light: #1a1a1a;
+  --color-text: #ffffff;
+
+  --color-accent: #3c91ed;
+  --color-accent-dark: #294E90;
+  --color-accent-light: #7ebde9;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-text);
+    justify-content: center; 
+    display: flex; 
+    margin-bottom: 20px; 
+    font-weight: bold;
+}
+
+form {
+    justify-content: center; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+}
+
+p {
+    color: var(--color-text);
+    font-size: smaller; 
+    margin-top: 10px;
+    justify-content: center; 
+    display: flex; 
+}
+
+a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+hr {
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+}
+
+a.link{
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+p.text-center {
+    text-align: center; 
+    margin-top: 20px; 
+    font-weight: bold;
+}
+
+p.left {
+    justify-content: right;
+    margin-top: 0;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh;
+}
+
+.container1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh;
+}
+
+.container2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80vh;
+}
+
+.card {
+    background-color: var(--color-bg-light);
+    color: var(--color-text);
+    border: 1px solid var(--color-accent);
+}
+
+.page {
+    background-color: var(--color-bg);
+    width: 20rem; 
+    margin-top: 50px; 
+    padding: 20px; 
+    border-radius: 20px;
+    border-color:var(--color-accent);
+}
+
+.card-header {
+    background-color: var(--color-accent-dark);
+    color: white;
+}
+
+.card p {
+    color: var(--color-text);
+    font-size: smaller; 
+    margin-top: 10px;
+    justify-content: center; 
+    display: flex;  
+}
+
+.image-container img {
+    justify-content: center; 
+    display: block; 
+    margin: 0 auto; 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.google-login-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+.google-login-container button{
+    border: 1px solid var(--color-accent);
+    padding: 10px 20px;
+    color: var(--color-text);
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.google-login-container button:hover {
+    background-color: var(--color-accent-light); 
+    border-color: var(--color-accent); 
+    color: var(--color-bg); 
+    opacity: 0.9;
+}
+
+.btn.btn-outline-secondary {
+    border: var(--color-accent);
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+
+.btn.btn-outline-secondary:hover {
+    background-color: var(--color-accent-light); 
+    border-color: var(--color-accent); 
+    color: var(--color-bg);
+}
+
+.side-bar {
+    background-color: var(--color-bg) !important;
+    min-height: 100vh;
+    border-right: 1px solid var(--color-accent-dark);
+}
+
+.side-bar .nav-link {
+    color: var(--color-text);
+    transition: 0.3s;
+}
+
+.side-bar .nav-link:hover {
+    background-color: var(--color-accent-dark);
+    color: var(--color-text);
+    border-radius: 6px;
+}
+
+.side-bar .nav-link.active {
+    background-color: var(--color-accent);
+    color: #fff;
+    border-radius: 6px;
+}
+
+.border-bottom {
+    border-color: var(--color-accent-dark) !important;
+}
+
+.flex-grow-1 > .d-flex {
+    background-color: var(--color-bg);
+}
+
+.right-side {
+    background-color: var(--color-bg);
+}
+
+.navbar {
+    background-color: var(--color-bg);
+    border-bottom: 1px solid var(--color-accent-dark);
+}
+
+.navbar .nav-link {
+    color: var(--color-text);
+}
+
+.navbar .nav-link.active {
+    color: var(--color-accent-light);
+}
+
+.table {
+    color: var(--color-text);
+}
+
+.table thead {
+    background-color: var(--color-accent-dark);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: var(--color-bg);
+}
+
+.chart-placeholder {
+    height:250px; 
+    width: auto;
+    border:1px dashed var(--color-accent); 
+    display:flex; 
+    align-items:center; 
+    justify-content:center; 
+}
+

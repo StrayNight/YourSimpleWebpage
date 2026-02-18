@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reports</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="side-nav d-flex">
+  <div class="side-bar bg-dark text-white p-3 " style="width: 250px; min-height: 100vh;">
+    <h4 class="text-center">Admin Panel</h4>
+    <hr>
+    <ul class="nav flex-column">
+      <li class="nav-item ">
+        <a class="nav-link text-white" href="dashboard.html">Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="profile.html">Profile</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link active" href="reports.html">Reports</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="analytics.html">Analytics</a>
+      </li>
+      <li class="nav-item mt-3">
+        <a class="nav-link text-danger" href="../login.html">Logout</a>
+      </li>
+    </ul>
+  </div>
+  <div class="flex-grow-1">
+    <div class="d-flex justify-content-between align-items-center p-3 border-bottom">
+      <h2>Reports</h2>
+      <div>
+        <span class="me-3">Admin User</span>
+        <img src="../assets/img/avatar.jpg" class="rounded-circle" width="40" height="40" alt="Admin Avatar">
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg px-3">
+      <div class="container-fluid">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">All Reports</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid p-4">
+      <div class="card p-3">
+        <table class="table table-striped table-hover mb-0">
+          <thead class="table-dark">
+            <tr>
+              <th>ID</th>
+              <th>Incident Type</th>
+              <th>Location</th>
+              <th>Date</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>R001</td>
+              <td>Unauthorized Access</td>
+              <td>Server Room</td>
+              <td>Feb 15, 2026</td>
+              <td>Open</td>
+            </tr>
+            <tr>
+              <td>R002</td>
+              <td>Data Breach</td>
+              <td>Office 2</td>
+              <td>Feb 14, 2026</td>
+              <td>Closed</td>
+            </tr>
+            <tr>
+              <td>R003</td>
+              <td>System Error</td>
+              <td>Database Server</td>
+              <td>Feb 14, 2026</td>
+              <td>Open</td>
+            </tr>
+            <tr>
+              <td>R004</td>
+              <td>System Error</td>
+              <td>Database Server</td>
+              <td>Feb 13, 2026</td>
+              <td>Open</td>
+            </tr>
+            <tr>
+              <td>R005</td>
+              <td>System Error</td>
+              <td>Database Server</td>
+              <td>Feb 12, 2026</td>
+              <td>Open</td>
+            </tr>
+            <tr>
+              <td>R006</td>
+              <td>System Error</td>
+              <td>Database Server</td>
+              <td>Feb 11, 2026</td>
+              <td>Open</td>
+            </tr>
+            <tr>
+              <td>R007</td>
+              <td>Phishing Attempt</td>
+              <td>Email System</td>
+              <td>Sep 9, 2011</td>
+              <td>In Progress</td>
+            </tr>
+            <tr>
+              <td>R008</td>
+              <td>Unauthorized Software</td>
+              <td>Workstation 7</td>
+              <td>2000 BCE</td>
+              <td>Closed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
